@@ -1005,6 +1005,8 @@ img {
 }
 
 .policy-link {
+  display: block;
+  margin-left: 4px;
   color: var(--accent-color);
 }
 
