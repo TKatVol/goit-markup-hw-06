@@ -1032,13 +1032,16 @@ img {
   border: 2px solid var(--black-color);
 }
 
-.modal-form-check-policy:checked + .modal-form-label-policy::before,
-.modal-form-check-policy:focus + .modal-form-label-policy::before {
+.modal-form-check-policy:checked + .modal-form-label-policy::before {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
   background-image: url("../images/icon-check.svg");
   background-size: contain;
   background-origin: content-box;
+}
+
+.modal-form-check-policy:focus + .modal-form-label-policy::before {
+  border-color: var(--accent-color);
 }
 
 .modal-form-button {
